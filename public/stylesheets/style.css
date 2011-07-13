@@ -1,0 +1,20 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif
+}
+
+a {
+  color: #00B7FF;
+}
+
+#map_canvas {
+  width: 600px; height: 400px; 
+  display: inline-block; 
+  float: left; 
+  border: solid 5px rgba(0,0,0,.5);
+  background-color: #99B3CC !important;
+  background-image: url('../images/ajax-loader.gif') center center no-repeat;
+}
+
+#sidebar {display: inline-block; float: left; margin-left: 20px;}
+#sidebar h1 {margin-top: 0}

@@ -1,0 +1,22 @@
+div#map_canvas
+
+div#sidebar
+  h1= title
+  p Welcome to #{title}
+  
+  form(action="/", method="post")
+    - if (username) 
+      input(name="username", value=username)
+    - else
+      input(name="username", placeholder="Say your name")
+    
+    
+    - if (guessip) 
+      input(name="ip", value=guessip)
+    - else
+      input(name="ip", placeholder="Guess nearest IP")
+      
+    input(type="submit")
+  p= text
+
+  div#user-list
